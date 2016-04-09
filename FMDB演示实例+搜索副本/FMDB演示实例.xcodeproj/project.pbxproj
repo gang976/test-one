@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB434F191BFB56A3001DC3F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB434F181BFB56A3001DC3F6 /* main.m */; };
+		AB434F241BFB56A3001DC3F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB434F231BFB56A3001DC3F6 /* Assets.xcassets */; };
+		AB434F271BFB56A3001DC3F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB434F251BFB56A3001DC3F6 /* LaunchScreen.storyboard */; };
+		AB434F371BFB5798001DC3F6 /* YXFAddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB434F331BFB5798001DC3F6 /* YXFAddressViewController.m */; };
+		AB434F381BFB5798001DC3F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB434F361BFB5798001DC3F6 /* AppDelegate.m */; };
+		AB434F3B1BFB5838001DC3F6 /* YXFAddressViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB434F3A1BFB5838001DC3F6 /* YXFAddressViewCell.m */; };
+		AB434F481BFB5BEC001DC3F6 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = AB434F3E1BFB5BEC001DC3F6 /* FMDatabase.m */; };
+		AB434F491BFB5BEC001DC3F6 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AB434F401BFB5BEC001DC3F6 /* FMDatabaseAdditions.m */; };
+		AB434F4A1BFB5BEC001DC3F6 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = AB434F421BFB5BEC001DC3F6 /* FMDatabasePool.m */; };
+		AB434F4B1BFB5BEC001DC3F6 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = AB434F441BFB5BEC001DC3F6 /* FMDatabaseQueue.m */; };
+		AB434F4C1BFB5BEC001DC3F6 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = AB434F471BFB5BEC001DC3F6 /* FMResultSet.m */; };
+		AB434F501BFB5CAA001DC3F6 /* YXFDataFromDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = AB434F4F1BFB5CAA001DC3F6 /* YXFDataFromDataBase.m */; };
+		AB434F521BFB5EA1001DC3F6 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AB434F511BFB5EA1001DC3F6 /* libsqlite3.tbd */; };
+		AB434F551BFB633C001DC3F6 /* YXFAddUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB434F541BFB633C001DC3F6 /* YXFAddUserViewController.m */; };
+		ABA03E751BFC28B400C525D2 /* fail.png in Resources */ = {isa = PBXBuildFile; fileRef = ABA03E721BFC28B400C525D2 /* fail.png */; };
+		ABA03E761BFC28B400C525D2 /* success.png in Resources */ = {isa = PBXBuildFile; fileRef = ABA03E731BFC28B400C525D2 /* success.png */; };
+		ABA03E791BFC292300C525D2 /* XFNotices.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA03E781BFC292300C525D2 /* XFNotices.m */; };
+		ABE06C111BFC522A0083E030 /* YXFSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE06C101BFC522A0083E030 /* YXFSearchViewController.m */; };
+		ABE06C151BFC55810083E030 /* YXFDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE06C141BFC55810083E030 /* YXFDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB434F141BFB56A3001DC3F6 /* FMDB演示实例.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FMDB演示实例.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB434F181BFB56A3001DC3F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB434F231BFB56A3001DC3F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB434F261BFB56A3001DC3F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB434F281BFB56A3001DC3F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB434F321BFB5798001DC3F6 /* YXFAddressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXFAddressViewController.h; sourceTree = "<group>"; };
+		AB434F331BFB5798001DC3F6 /* YXFAddressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXFAddressViewController.m; sourceTree = "<group>"; };
+		AB434F351BFB5798001DC3F6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB434F361BFB5798001DC3F6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB434F391BFB5838001DC3F6 /* YXFAddressViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXFAddressViewCell.h; sourceTree = "<group>"; };
+		AB434F3A1BFB5838001DC3F6 /* YXFAddressViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXFAddressViewCell.m; sourceTree = "<group>"; };
+		AB434F3D1BFB5BEC001DC3F6 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		AB434F3E1BFB5BEC001DC3F6 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		AB434F3F1BFB5BEC001DC3F6 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		AB434F401BFB5BEC001DC3F6 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		AB434F411BFB5BEC001DC3F6 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		AB434F421BFB5BEC001DC3F6 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		AB434F431BFB5BEC001DC3F6 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		AB434F441BFB5BEC001DC3F6 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		AB434F451BFB5BEC001DC3F6 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		AB434F461BFB5BEC001DC3F6 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		AB434F471BFB5BEC001DC3F6 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		AB434F4E1BFB5CAA001DC3F6 /* YXFDataFromDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXFDataFromDataBase.h; sourceTree = "<group>"; };
+		AB434F4F1BFB5CAA001DC3F6 /* YXFDataFromDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXFDataFromDataBase.m; sourceTree = "<group>"; };
+		AB434F511BFB5EA1001DC3F6 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		AB434F531BFB633C001DC3F6 /* YXFAddUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YXFAddUserViewController.h; path = ../Address/YXFAddUserViewController.h; sourceTree = "<group>"; };
+		AB434F541BFB633C001DC3F6 /* YXFAddUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YXFAddUserViewController.m; path = ../Address/YXFAddUserViewController.m; sourceTree = "<group>"; };
+		ABA03E721BFC28B400C525D2 /* fail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fail.png; sourceTree = "<group>"; };
+		ABA03E731BFC28B400C525D2 /* success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = success.png; sourceTree = "<group>"; };
+		ABA03E771BFC292300C525D2 /* XFNotices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFNotices.h; sourceTree = "<group>"; };
+		ABA03E781BFC292300C525D2 /* XFNotices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFNotices.m; sourceTree = "<group>"; };
+		ABE06C0F1BFC522A0083E030 /* YXFSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXFSearchViewController.h; sourceTree = "<group>"; };
+		ABE06C101BFC522A0083E030 /* YXFSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXFSearchViewController.m; sourceTree = "<group>"; };
+		ABE06C131BFC55810083E030 /* YXFDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXFDetailViewController.h; sourceTree = "<group>"; };
+		ABE06C141BFC55810083E030 /* YXFDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXFDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB434F111BFB56A3001DC3F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB434F521BFB5EA1001DC3F6 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB434F0B1BFB56A3001DC3F6 = {
+			isa = PBXGroup;
+			children = (
+				AB434F511BFB5EA1001DC3F6 /* libsqlite3.tbd */,
+				AB434F161BFB56A3001DC3F6 /* FMDB演示实例 */,
+				AB434F151BFB56A3001DC3F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB434F151BFB56A3001DC3F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB434F141BFB56A3001DC3F6 /* FMDB演示实例.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB434F161BFB56A3001DC3F6 /* FMDB演示实例 */ = {
+			isa = PBXGroup;
+			children = (
+				ABE06C121BFC55710083E030 /* Detail */,
+				ABA03E6D1BFC26E100C525D2 /* AddUser */,
+				ABA03E6E1BFC26E100C525D2 /* search */,
+				AB434F4D1BFB5C87001DC3F6 /* Singleton */,
+				AB434F311BFB5798001DC3F6 /* Address */,
+				AB434F341BFB5798001DC3F6 /* Other */,
+				AB434F231BFB56A3001DC3F6 /* Assets.xcassets */,
+				AB434F251BFB56A3001DC3F6 /* LaunchScreen.storyboard */,
+				AB434F281BFB56A3001DC3F6 /* Info.plist */,
+				AB434F171BFB56A3001DC3F6 /* Supporting Files */,
+			);
+			path = "FMDB演示实例";
+			sourceTree = "<group>";
+		};
+		AB434F171BFB56A3001DC3F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB434F181BFB56A3001DC3F6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB434F311BFB5798001DC3F6 /* Address */ = {
+			isa = PBXGroup;
+			children = (
+				AB434F321BFB5798001DC3F6 /* YXFAddressViewController.h */,
+				AB434F331BFB5798001DC3F6 /* YXFAddressViewController.m */,
+				AB434F391BFB5838001DC3F6 /* YXFAddressViewCell.h */,
+				AB434F3A1BFB5838001DC3F6 /* YXFAddressViewCell.m */,
+			);
+			path = Address;
+			sourceTree = "<group>";
+		};
+		AB434F341BFB5798001DC3F6 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				ABA03E6F1BFC28B400C525D2 /* XFNotices */,
+				AB434F3C1BFB5BEC001DC3F6 /* FMDB */,
+				AB434F351BFB5798001DC3F6 /* AppDelegate.h */,
+				AB434F361BFB5798001DC3F6 /* AppDelegate.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		AB434F3C1BFB5BEC001DC3F6 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				AB434F3D1BFB5BEC001DC3F6 /* FMDatabase.h */,
+				AB434F3E1BFB5BEC001DC3F6 /* FMDatabase.m */,
+				AB434F3F1BFB5BEC001DC3F6 /* FMDatabaseAdditions.h */,
+				AB434F401BFB5BEC001DC3F6 /* FMDatabaseAdditions.m */,
+				AB434F411BFB5BEC001DC3F6 /* FMDatabasePool.h */,
+				AB434F421BFB5BEC001DC3F6 /* FMDatabasePool.m */,
+				AB434F431BFB5BEC001DC3F6 /* FMDatabaseQueue.h */,
+				AB434F441BFB5BEC001DC3F6 /* FMDatabaseQueue.m */,
+				AB434F451BFB5BEC001DC3F6 /* FMDB.h */,
+				AB434F461BFB5BEC001DC3F6 /* FMResultSet.h */,
+				AB434F471BFB5BEC001DC3F6 /* FMResultSet.m */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		AB434F4D1BFB5C87001DC3F6 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				AB434F4E1BFB5CAA001DC3F6 /* YXFDataFromDataBase.h */,
+				AB434F4F1BFB5CAA001DC3F6 /* YXFDataFromDataBase.m */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		ABA03E6D1BFC26E100C525D2 /* AddUser */ = {
+			isa = PBXGroup;
+			children = (
+				AB434F531BFB633C001DC3F6 /* YXFAddUserViewController.h */,
+				AB434F541BFB633C001DC3F6 /* YXFAddUserViewController.m */,
+			);
+			path = AddUser;
+			sourceTree = "<group>";
+		};
+		ABA03E6E1BFC26E100C525D2 /* search */ = {
+			isa = PBXGroup;
+			children = (
+				ABE06C0F1BFC522A0083E030 /* YXFSearchViewController.h */,
+				ABE06C101BFC522A0083E030 /* YXFSearchViewController.m */,
+			);
+			path = search;
+			sourceTree = "<group>";
+		};
+		ABA03E6F1BFC28B400C525D2 /* XFNotices */ = {
+			isa = PBXGroup;
+			children = (
+				ABA03E771BFC292300C525D2 /* XFNotices.h */,
+				ABA03E781BFC292300C525D2 /* XFNotices.m */,
+				ABA03E721BFC28B400C525D2 /* fail.png */,
+				ABA03E731BFC28B400C525D2 /* success.png */,
+			);
+			name = XFNotices;
+			path = CHNotices;
+			sourceTree = "<group>";
+		};
+		ABE06C121BFC55710083E030 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				ABE06C131BFC55810083E030 /* YXFDetailViewController.h */,
+				ABE06C141BFC55810083E030 /* YXFDetailViewController.m */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB434F131BFB56A3001DC3F6 /* FMDB演示实例 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB434F2B1BFB56A3001DC3F6 /* Build configuration list for PBXNativeTarget "FMDB演示实例" */;
+			buildPhases = (
+				AB434F101BFB56A3001DC3F6 /* Sources */,
+				AB434F111BFB56A3001DC3F6 /* Frameworks */,
+				AB434F121BFB56A3001DC3F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FMDB演示实例";
+			productName = "FMDB演示实例";
+			productReference = AB434F141BFB56A3001DC3F6 /* FMDB演示实例.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB434F0C1BFB56A3001DC3F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "袁新峰";
+				TargetAttributes = {
+					AB434F131BFB56A3001DC3F6 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = AB434F0F1BFB56A3001DC3F6 /* Build configuration list for PBXProject "FMDB演示实例" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB434F0B1BFB56A3001DC3F6;
+			productRefGroup = AB434F151BFB56A3001DC3F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB434F131BFB56A3001DC3F6 /* FMDB演示实例 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB434F121BFB56A3001DC3F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB434F271BFB56A3001DC3F6 /* LaunchScreen.storyboard in Resources */,
+				AB434F241BFB56A3001DC3F6 /* Assets.xcassets in Resources */,
+				ABA03E751BFC28B400C525D2 /* fail.png in Resources */,
+				ABA03E761BFC28B400C525D2 /* success.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB434F101BFB56A3001DC3F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA03E791BFC292300C525D2 /* XFNotices.m in Sources */,
+				AB434F191BFB56A3001DC3F6 /* main.m in Sources */,
+				AB434F4B1BFB5BEC001DC3F6 /* FMDatabaseQueue.m in Sources */,
+				ABE06C151BFC55810083E030 /* YXFDetailViewController.m in Sources */,
+				AB434F371BFB5798001DC3F6 /* YXFAddressViewController.m in Sources */,
+				AB434F551BFB633C001DC3F6 /* YXFAddUserViewController.m in Sources */,
+				AB434F381BFB5798001DC3F6 /* AppDelegate.m in Sources */,
+				AB434F481BFB5BEC001DC3F6 /* FMDatabase.m in Sources */,
+				AB434F4A1BFB5BEC001DC3F6 /* FMDatabasePool.m in Sources */,
+				AB434F4C1BFB5BEC001DC3F6 /* FMResultSet.m in Sources */,
+				AB434F3B1BFB5838001DC3F6 /* YXFAddressViewCell.m in Sources */,
+				ABE06C111BFC522A0083E030 /* YXFSearchViewController.m in Sources */,
+				AB434F501BFB5CAA001DC3F6 /* YXFDataFromDataBase.m in Sources */,
+				AB434F491BFB5BEC001DC3F6 /* FMDatabaseAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB434F251BFB56A3001DC3F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB434F261BFB56A3001DC3F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB434F291BFB56A3001DC3F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB434F2A1BFB56A3001DC3F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB434F2C1BFB56A3001DC3F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "FMDB演示实例/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.cnblogs.com-yxfBlogs-.FMDB----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB434F2D1BFB56A3001DC3F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "FMDB演示实例/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.cnblogs.com-yxfBlogs-.FMDB----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB434F0F1BFB56A3001DC3F6 /* Build configuration list for PBXProject "FMDB演示实例" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB434F291BFB56A3001DC3F6 /* Debug */,
+				AB434F2A1BFB56A3001DC3F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB434F2B1BFB56A3001DC3F6 /* Build configuration list for PBXNativeTarget "FMDB演示实例" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB434F2C1BFB56A3001DC3F6 /* Debug */,
+				AB434F2D1BFB56A3001DC3F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB434F0C1BFB56A3001DC3F6 /* Project object */;
+}
